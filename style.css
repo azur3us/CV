@@ -1,0 +1,191 @@
+body
+{
+    background-color: gray;
+    font-family: sans-serif;
+}
+::selection{
+    background-color:#123259;
+    color:#fff;
+}
+aside ::selection{
+    color:#123259;
+    background-color:#fff;
+}
+.container
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-right: auto;
+    margin-left: auto;
+    width: 900px;
+    height: 1000px;
+    background-color: white;
+    display:flex;
+    background-color:#123259;
+}
+.container > aside
+{
+    display:flex;
+    width: 300px;
+    flex-direction: column;
+}
+.imgBlock
+{
+    width: 300px;
+    height: 300px;
+    background-color:#082346;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 30px;
+   }
+   .imgBlock span{
+       color:#fff;
+   }
+.personalPhoto{
+    width: 120px;
+    height: 150px;
+}
+.myPersonalData
+{ 
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+     
+}
+.aboutMe
+{   
+    font-size: 15px;
+    color: black;
+    margin:0;
+    color: #9ca0a3;
+    padding-bottom: 25px;
+}
+aside h2
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin:0;
+    color: #ffffff; 
+    padding-bottom: 15px;
+
+}
+.imgBlock > b
+{
+    color: white;
+}
+
+
+.mainContent
+{  
+    width: 550px;
+    background-color:#ffffff;
+    padding-top: 40px;
+    padding-left: 50px;
+    
+    
+
+}
+.mainContent p 
+{
+    font-weight: bold;
+}
+
+.rightSide h2
+{
+    font-size: 30px;
+    font-weight: bold;
+    margin:0;
+}
+h3
+{
+    font-size: 20px;
+    font-weight: 700;
+    margin:0;
+
+}
+h3 span
+{
+    display: block;
+    font-size: 1rm;
+    font-weight: 400;
+}
+.flags
+{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    
+}
+.flags > div
+{
+    margin-right: 100px;
+}
+.flags img
+{
+    width: 180px;
+    height: 120px;
+}
+a
+{
+    color: inherit;
+    text-decoration: inherit;
+}
+
+.rodo
+{   width: 300px;
+    height: 50px;
+    
+}
+@media(max-width:940px)
+{
+    .container
+    {
+    display: block;
+    width: 600px;
+    height: auto;
+    }
+    aside
+    {
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+@media(max-width:640px)
+{
+    .container
+    {
+    display: block;
+    width: auto;
+    height: auto;
+    }
+    .mainContent
+    {
+        width: auto;
+
+    }
+}
+@media(max-width:600px){
+    .mainContent{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .flags{
+        flex-direction: column;
+    }
+    .flags > div{
+        margin-right: 0;
+    }
+}
+@media(max-width:360px)
+{
+   .container> aside{
+        width: auto;
+    }
+    .imgBlock
+    {
+        width: auto;
+    }
+}
