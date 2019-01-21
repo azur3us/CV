@@ -120,7 +120,7 @@ h3
 h3 span
 {
     display: block;
-    font-size: 15px;
+    font-size: 13px;
     font-weight: 400;
     color: #6c6d70;
 }
@@ -129,11 +129,14 @@ h3 span
     display: flex;
     flex-direction: row;
     text-align: center;
+    padding-top:10px;
     
 }
 .flags > div
 {
     margin-right: 100px;
+    padding-bottom: 10px;
+
 }
 .flags img
 {
@@ -144,11 +147,13 @@ h3 span
 {
     color: #808285;
     font-size: 12px;
+    
 }
 .lang
 {
     color: #57585a;
     margin: 0;
+    padding-top:10px;
 }
 
 a
