@@ -40,9 +40,10 @@ aside ::selection{
     justify-content: space-evenly;
     font-size: 30px;
    }
-   .imgBlock span{
-       color:#fff;
-   }
+.imgBlock span
+{
+    color:#ffffff;
+}
 .personalPhoto{
     width: 120px;
     height: 150px;
@@ -59,7 +60,7 @@ aside ::selection{
     font-size: 15px;
     color: black;
     margin:0;
-    color: #9ca0a3;
+    color: #d1d2d4;
     padding-bottom: 25px;
 }
 aside h2
@@ -163,9 +164,18 @@ a
 }
 
 .rodo
-{   width: 300px;
-    height: 50px;
+{   width: auto;
+    height: auto;
+    color: #b0b0b2;
+    text-align: justify;
+    padding: 10px;
+   
     
+}
+.rodo p
+{
+    margin: 0px;
+    font-size: 13px;
 }
 @media(max-width:940px)
 {
@@ -196,7 +206,8 @@ a
 
     }
 }
-@media(max-width:600px){
+@media(max-width:600px)
+{
     .mainContent{
         padding-left: 10px;
         padding-right: 10px;
